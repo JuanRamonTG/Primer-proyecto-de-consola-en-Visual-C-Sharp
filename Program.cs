@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Calculator
+namespace Calculadora
 {
     class Program
     {
@@ -27,22 +27,22 @@ namespace Calculator
             Console.WriteLine("\ts - Subtract");
             Console.WriteLine("\tm - Multiply");
             Console.WriteLine("\td - Divide");
-            Console.Write("Your option? ");
+            Console.Write("Tu opcion? ");
 
             // Use a switch statement to do the math.
             switch (Console.ReadLine())
             {
                 case "a":
-                    Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2));
+                    Console.WriteLine($"Tu resultado: {num1} + {num2} = " + (num1 + num2));
                     break;
                 case "s":
-                    Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2));
+                    Console.WriteLine($"Tu resultado: {num1} - {num2} = " + (num1 - num2));
                     break;
                 case "m":
-                    Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));
+                    Console.WriteLine($"Tu resultado: {num1} * {num2} = " + (num1 * num2));
                     break;
                 case "d":
-                    Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
+                    Console.WriteLine($"Tu resultado: {num1} / {num2} = " + (num1 / num2));
                     break;
             }
             // Wait for the user to respond before closing.
