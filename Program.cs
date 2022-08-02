@@ -14,7 +14,7 @@ namespace Calculator
             Console.WriteLine("------------------------\n");
 
             // Ask the user to type the first number.
-            Console.WriteLine("Type a number, and then press Enter");
+            Console.WriteLine("Escriba un número y luego presione Enter");
             num1 = Convert.ToInt32(Console.ReadLine());
 
             // Ask the user to type the second number.
@@ -22,7 +22,7 @@ namespace Calculator
             num2 = Convert.ToInt32(Console.ReadLine());
 
             // Ask the user to choose an option.
-            Console.WriteLine("Choose an option from the following list:");
+            Console.WriteLine("Elija una opción de la siguiente lista:");
             Console.WriteLine("\ta - Add");
             Console.WriteLine("\ts - Subtract");
             Console.WriteLine("\tm - Multiply");
@@ -46,7 +46,7 @@ namespace Calculator
                     break;
             }
             // Wait for the user to respond before closing.
-            Console.Write("Press any key to close the Calculator console app...");
+            Console.Write("Presione cualquier tecla para cerrar la aplicación de la consola Calculadora...");
             Console.ReadKey();
         }
     }
